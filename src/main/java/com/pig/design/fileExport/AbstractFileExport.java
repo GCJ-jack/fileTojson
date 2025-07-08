@@ -61,6 +61,7 @@ public abstract class AbstractFileExport implements FileExport{
 
     protected abstract List<User> readFile(String filepath);
 
+
     protected abstract boolean needProcessData();
 
     protected List<User> processData(List<User> users){
